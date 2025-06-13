@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:space_app/core/app_constants.dart';
+import 'package:space_app/core/app_routes.dart';
 import 'package:space_app/core/app_styles.dart';
 import 'package:space_app/custom_widget/arrow_button.dart';
 
@@ -6,10 +9,12 @@ import '../../core/App_colors.dart';
 import '../../core/app_assets.dart';
 import '../../custom_widget/custom_elevated_button.dart';
 import '../../models/planet.dart';
-import '../planet_details/planet_details.dart';
+
 
 class HomeScreen extends StatefulWidget {
-  static const routeName = 'HomeScreen';
+  const HomeScreen({super.key});
+
+
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -20,7 +25,6 @@ class _HomeScreenState extends State<HomeScreen> {
   PageController controller = PageController();
   @override
   Widget build(BuildContext context) {
-    var screenSize = MediaQuery.of(context).size;
     return SafeArea(
       child: Scaffold(
         backgroundColor: AppColors.black,
@@ -30,22 +34,26 @@ class _HomeScreenState extends State<HomeScreen> {
               Image.asset(AppAssets.halfEarth),
               Image.asset(AppAssets.halfEarthShadow),
               Positioned(
-                  top: screenSize.height * .02,
-                  left: screenSize.width * .35,
+                  top: 13.8.h,
+                  left: 126.w,
                   child: Text(
-                    'Explore',
-                    style: AppStyles.white24W700,
+                    AppConstants.exploreText,
+                    style: AppStyles.white24W700.copyWith(
+                      fontSize: 24.sp,
+                    ),
                   )),
               Positioned(
-                  top: screenSize.height * .2,
-                  left: screenSize.width * .04,
+                  top: 138.h,
+                  left: 14.4.w,
                   child: Text(
-                    'Which planet\nwould you like to explore?',
-                    style: AppStyles.white24W700,
+                    AppConstants.whichPlanetText,
+                    style: AppStyles.white24W700.copyWith(
+                      fontSize: 24.sp,
+                    ),
                   )),
             ]),
             SizedBox(
-              height: screenSize.height * .42,
+              height: 289.8.h,
               child: PageView.builder(
                   onPageChanged: (index) {
                     currentIndex = index;
@@ -54,17 +62,17 @@ class _HomeScreenState extends State<HomeScreen> {
                   controller: controller,
                   itemBuilder: (context, index) {
                     return Image.asset(
-                        height: screenSize.height * .02,
-                        width: screenSize.width * .02,
+                        height: 13.8.h,
+                        width: 7.2.w,
                         Planet.getPlanetDetails(index).imagePath);
                   },
                   itemCount: Planet.getPlanetsLength()),
             ),
             SizedBox(
-              height: screenSize.height * .02,
+              height: 13.8.h,
             ),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: screenSize.width * .04),
+              padding: EdgeInsets.symmetric(horizontal: 14.4.w),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -72,30 +80,32 @@ class _HomeScreenState extends State<HomeScreen> {
                       icon: Icons.arrow_back,
                       onPressed: () {
                         controller.previousPage(
-                            duration: Duration(milliseconds: 100),
+                            duration: const Duration(milliseconds: 100),
                             curve: Curves.easeIn);
                       }),
                   Text(
-                    '${Planet.plantsName[currentIndex]}',
-                    style: AppStyles.white24W700,
+                    Planet.plantsName[currentIndex],
+                    style: AppStyles.white24W700.copyWith(
+                      fontSize: 24.sp,
+                    ),
                   ),
                   ArrowButton(
                       icon: Icons.arrow_forward,
                       onPressed: () {
                         controller.nextPage(
-                            duration: Duration(milliseconds: 100),
+                            duration: const Duration(milliseconds: 100),
                             curve: Curves.easeIn);
                       }),
                 ],
               ),
             ),
             SizedBox(
-              height: screenSize.height * .05,
+              height: 34.5.h,
             ),
             CustomElevatedButton(
-                text: 'Explore ${Planet.plantsName[currentIndex]}',
+                text: '${AppConstants.exploreText} ${Planet.plantsName[currentIndex]}',
                 onPressed: () {
-                  Navigator.pushNamed(context, PlanetDetails.routeName,
+                  Navigator.pushNamed(context, AppRoutes.planetRoute,
                       arguments: Planet.getPlanetDetails(currentIndex));
                 }),
           ],

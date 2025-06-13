@@ -1,42 +1,51 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:space_app/core/app_constants.dart';
+import 'package:space_app/core/app_routes.dart';
 import 'package:space_app/core/app_styles.dart';
 
 import '../../core/App_colors.dart';
 import '../../core/app_assets.dart';
 import '../../custom_widget/custom_elevated_button.dart';
-import '../home_screen/home_screen.dart';
+
 
 class LoginScreen extends StatelessWidget {
-  static const routeName = 'LoginScreen';
+  const LoginScreen({super.key});
+
+
 
   @override
   Widget build(BuildContext context) {
-    var screenSize = MediaQuery.of(context).size;
     return SafeArea(
       child: Scaffold(
         backgroundColor: AppColors.black,
         body: Stack(children: [
           Container(
             margin: EdgeInsets.only(
-                top: screenSize.height * .04,
-                right: screenSize.width * 0.08,
-                bottom: screenSize.height * .04),
+                top: 24.h,
+                right: 28.8.w,
+                bottom: 24.h),
             child: Image.asset(
               AppAssets.halfSpace,
             ),
           ),
           Positioned(
-            left: screenSize.width * .08,
-            top: screenSize.height * .3,
-            child: Text('Explore\nThe\nUniverse', style: AppStyles.white48W900),
+            left: 28.8.w,
+            top: 207.h,
+            child: Text(
+              AppConstants.exploreUniverseText,
+              style: AppStyles.white48W900.copyWith(
+                fontSize: 48.sp,
+              ),
+            ),
           ),
           Positioned(
-            left: screenSize.width * .06,
-            bottom: screenSize.height * .02,
+            left: 21.6.w,
+            bottom: 13.8.h,
             child: CustomElevatedButton(
-              text: 'Explore',
+              text: AppConstants.exploreText,
               onPressed: () {
-                Navigator.pushNamed(context, HomeScreen.routeName);
+                Navigator.pushNamed(context, AppRoutes.homeRoute);
               },
             ),
           )

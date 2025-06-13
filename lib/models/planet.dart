@@ -76,7 +76,13 @@ class Planet {
         planet3dPath: plants3dPath[index],
         about: aboutList[index]);
   }
-
+  static List<Planet> getAllPlanets() {
+    List<Planet> planets = [];
+    for (int i = 0; i < plantsName.length; i++) {
+      planets.add(getPlanetDetails(i));
+    }
+    return planets;
+  }
   static int getPlanetsLength() {
     return plantsName.length;
   }
