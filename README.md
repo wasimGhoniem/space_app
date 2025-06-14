@@ -113,7 +113,9 @@ Immerse yourself in the beauty of our solar system
 
 | Home Screen | Planet Selection | Planet Details |
 |-------------|------------------|----------------|
-| ![Home Screen](https://github.com/user-attachments/assets/7d7fea6c-5c33-4134-bb06-883471b498a9) | ![Planet Selection](https://github.com/user-attachments/assets/f55134e5-fa8b-43c8-8711-ff3f6a74939f) | ![Planet Details](https://github.com/user-attachments/assets/3ffebca9-84e0-488c-9aef-d1d1160600ba) |
+| ![Home Screen](https://github.com/user-attachments/assets/7d7fea6c-5c33-4134-bb06-883471b498a9) | ![Planet Selection]![2025-06-14 02_34_42-Greenshot](https://github.com/user-attachments/assets/73fda697-ef9f-4e2d-9899-b58392da5626)
+() | ![Planet Details]![2025-06-14 02_35_26-Greenshot](https://github.com/user-attachments/assets/cfe402fa-31a7-4465-826c-1ec403e66bbc)
+() |
 | Interactive solar system overview | Choose your cosmic destination | Detailed planetary information |
 
 
@@ -192,9 +194,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Developer
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- GitHub: [@yourusername](@wasimGhoniem)
+- LinkedIn: [Your LinkedIn]([https://linkedin.com/in/yourprofile](https://linkedin.com/in/wasim-ghonim-37bb98333))
+
 
 ## 🔮 Future Roadmap
 
@@ -211,11 +213,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-For any queries, suggestions, or collaboration opportunities:
+**Phone:** 00201030350389
 
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **Phone:** +1234567890
+For any queries or support, please reach out to:
+- **Email:** [wasimghoniem@gmail.com](mailto:wasimghoniem@gmail.com)
+- **LinkedIn:** [linkedin.com/in/wasim-ghonim-37bb98333](https://linkedin.com/in/wasim-ghonim-37bb98333)
 
 ## 🌟 Acknowledgments
 
@@ -228,4 +230,4 @@ For any queries, suggestions, or collaboration opportunities:
 
 ⭐ **Star this repository if you find it helpful and want to support space exploration education!**
 
-*"The universe is not only stranger than we imagine, it is stranger than we can imagine." - J.B.S. Haldane*
+
