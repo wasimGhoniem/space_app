@@ -108,9 +108,7 @@ assets/
 
 ## 📸 Screenshots
 ![2025-06-14 03_24_45-Greenshot](https://github.com/user-attachments/assets/1a94b386-79e6-45a6-898f-9b4f099fe1ce)
-
 ![2025-06-14 02_34_42-Greenshot](https://github.com/user-attachments/assets/ff0c3c3f-ffe3-40b9-af5c-9afffa4a1a90)
-
 ![2025-06-14 02_35_26-Greenshot](https://github.com/user-attachments/assets/61191357-f1af-46bb-9f52-2ba226cbeeac)
 
 
