@@ -107,10 +107,12 @@ assets/
    ```
 
 ## 📸 Screenshots
+![2025-06-14 03_24_45-Greenshot](https://github.com/user-attachments/assets/1a94b386-79e6-45a6-898f-9b4f099fe1ce)
 
-![2025-06-14 02_31_26-Greenshot](https://github.com/user-attachments/assets/0d051e63-07eb-4e3f-8e03-1fd4938eab83)
-![2025-06-14 02_34_42-Greenshot](https://github.com/user-attachments/assets/a54f2021-22b9-40ce-918c-0293dc4adc3c)
-![2025-06-14 02_35_26-Greenshot](https://github.com/user-attachments/assets/bac1893b-ed4f-4283-8d40-d7abaea9d2c5)
+![2025-06-14 02_34_42-Greenshot](https://github.com/user-attachments/assets/ff0c3c3f-ffe3-40b9-af5c-9afffa4a1a90)
+
+![2025-06-14 02_35_26-Greenshot](https://github.com/user-attachments/assets/61191357-f1af-46bb-9f52-2ba226cbeeac)
+
 
 
 
