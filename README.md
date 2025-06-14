@@ -116,15 +116,10 @@ Immerse yourself in the beauty of our solar system
 | ![Home Screen](screenshot![2025-06-14 02_31_26-Greenshot](https://github.com/user-attachments/assets/7d7fea6c-5c33-4134-bb06-883471b498a9)
 s/home.png) | ![Planet Selection](screenshots![2025-06-14 02_34_42-Greenshot](https://github.com/user-attachments/assets/f55134e5-fa8b-43c8-8711-ff3f6a74939f)
 /explore.png) | ![Planet Details](scree![2025-06-14 02_35_26-Greenshot](https://github.com/user-attachments/assets/3ffebca9-84e0-488c-9aef-d1d1160600ba)
-nshots/earth_details.png) |
-| Interactive solar system overview | Choose your cosmic destination | Detailed planetary information |
 
-### 🪐 Planetary Exploration Experience
 
-| 3D Models | Scientific Data | Image Gallery |
-|-----------|-----------------|---------------|
-| ![3D Models](screenshots/3d_model.png) | ![Scientific Data](screenshots/data.png) | ![Gallery](screenshots/gallery.png) |
-| Interactive 3D planet models | Comprehensive scientific information | High-resolution space imagery |
+
+
 
 ## 🎨 UI/UX Highlights
 
