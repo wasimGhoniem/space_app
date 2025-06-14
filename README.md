@@ -113,10 +113,10 @@ Immerse yourself in the beauty of our solar system
 
 | Home Screen | Planet Selection | Planet Details |
 |-------------|------------------|----------------|
-| ![Home Screen](https://github.com/user-attachments/assets/7d7fea6c-5c33-4134-bb06-883471b498a9) | ![Planet Selection]![2025-06-14 02_34_42-Greenshot](https://github.com/user-attachments/assets/73fda697-ef9f-4e2d-9899-b58392da5626)
-() | ![Planet Details]![2025-06-14 02_35_26-Greenshot](https://github.com/user-attachments/assets/cfe402fa-31a7-4465-826c-1ec403e66bbc)
-() |
-| Interactive solar system overview | Choose your cosmic destination | Detailed planetary information |
+(https://github.com/user-attachments/assets/7d7fea6c-5c33-4134-bb06-883471b498a9) |(https://github.com/user-attachments/assets/73fda697-ef9f-4e2d-9899-b58392da5626)
+ (https://github.com/user-attachments/assets/cfe402fa-31a7-4465-826c-1ec403e66bbc)
+
+
 
 
 
