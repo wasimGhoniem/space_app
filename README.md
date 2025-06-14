@@ -113,10 +113,7 @@ Immerse yourself in the beauty of our solar system
 
 | Home Screen | Planet Selection | Planet Details |
 |-------------|------------------|----------------|
-| ![Home Screen](https://github.com![2025-06-14 02_31_26-Greenshot](https://github.com/user-attachments/assets/9cedf784-bb0d-40f8-8f0d-98f4ec1b5b5f)
-/user-attachments/assets/7d7fea6c-5c33-4134-bb06-883471b498a9) | ![Planet Selection](https://github.com/user-![2025-06-14 02_34_42-Greenshot](https://github.com/user-attachments/assets/f6ad3d9d-0afd-4f78-b46f-e715571d7007)
-attachments/assets/f55134e5-fa8b-43c8-8711-ff3f6a74939f) | ![Planet Details](https://github.c![2025-06-14 02_35_26-Greenshot](https://github.com/user-attachments/assets/640a2b50-4596-434f-be8c-0b8b74c5be35)
-om/user-attachments/assets/3ffebca9-84e0-488c-9aef-d1d1160600ba) |
+| ![Home Screen](https://github.com/user-attachments/assets/7d7fea6c-5c33-4134-bb06-883471b498a9) | ![Planet Selection](https://github.com/user-attachments/assets/f55134e5-fa8b-43c8-8711-ff3f6a74939f) | ![Planet Details](https://github.com/user-attachments/assets/3ffebca9-84e0-488c-9aef-d1d1160600ba) |
 | Interactive solar system overview | Choose your cosmic destination | Detailed planetary information |
 
 
@@ -231,3 +228,4 @@ For any queries, suggestions, or collaboration opportunities:
 
 ⭐ **Star this repository if you find it helpful and want to support space exploration education!**
 
+*"The universe is not only stranger than we imagine, it is stranger than we can imagine." - J.B.S. Haldane*
