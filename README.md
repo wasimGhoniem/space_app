@@ -108,15 +108,9 @@ assets/
 
 ## 📸 Screenshots
 
-### 🌌 Space Exploration Journey
-Immerse yourself in the beauty of our solar system
-
-| Home Screen | Planet Selection | Planet Details |
-|-------------|------------------|----------------|
-(https://github.com/user-attachments/assets/7d7fea6c-5c33-4134-bb06-883471b498a9) |(https://github.com/user-attachments/assets/73fda697-ef9f-4e2d-9899-b58392da5626)
- (https://github.com/user-attachments/assets/cfe402fa-31a7-4465-826c-1ec403e66bbc)
-
-
+![2025-06-14 02_31_26-Greenshot](https://github.com/user-attachments/assets/0d051e63-07eb-4e3f-8e03-1fd4938eab83)
+![2025-06-14 02_34_42-Greenshot](https://github.com/user-attachments/assets/a54f2021-22b9-40ce-918c-0293dc4adc3c)
+![2025-06-14 02_35_26-Greenshot](https://github.com/user-attachments/assets/bac1893b-ed4f-4283-8d40-d7abaea9d2c5)
 
 
 
